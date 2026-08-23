@@ -1,0 +1,21 @@
+basque.finance (Euskal Finance)
+
+Site vitrine statique (HTML/CSS) dedie a la cession et a la transmission
+d'entreprise au Pays Basque francais (Bayonne, Anglet, Biarritz, cote basque
+et Pays Basque interieur).
+
+Structure
+  templates/head.html + templates/foot.html : enveloppe commune
+  pages/<slug>.html                         : corps de page, precede de
+                                              deux lignes TITLE: et DESCRIPTION:
+  node build.js                             : genere <slug>/index.html
+  index.html                                : page d'accueil, autonome
+
+Deployable directement sur Vercel (aucune config build necessaire :
+les pages generees sont commitees).
+
+Visuels a fournir
+  assets/bayonne-nive.jpg      bandeau pleine largeur
+  assets/cote-basque.jpg       encart section "plateforme"
+  assets/pays-basque-interieur.jpg encart section "territoire"
+  Tant qu'ils ne sont pas fournis, des panneaux SVG dessines tiennent le role.
