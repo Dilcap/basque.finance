@@ -1053,6 +1053,14 @@ h2 {
   border: 1px solid var(--line);
 }
 
+.section-media .media-map {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  border: 1px solid var(--line);
+}
+
 .banner-panel {
   width: 100%;
   height: min(38vw, 340px);
