@@ -1061,12 +1061,6 @@ h2 {
   border: 1px solid var(--line);
 }
 
-.banner-panel {
-  width: 100%;
-  height: min(38vw, 340px);
-  display: block;
-}
-
 /* La bande de contact garde son degrade meme sans image de fond. */
 .band--photo {
   background-color: var(--red-deep);
